@@ -1,0 +1,59 @@
+.wrapper1 {
+  padding: 100px 0 45px;
+  background-color: transparent;
+  background-image: url(../img/wrapper1-back.jpg);
+  background-repeat: no-repeat;
+  background-size: 900px auto;
+  background-position: 280px 35px;
+}
+.context {
+  display: inline-block;
+}
+.context h1 {
+
+}
+.context p {
+  color: #4d4a4a;
+  font-size: 21px;
+}
+.photos {
+  display: inline-block;
+}
+.photos img {
+  float: left;
+}
+.wrapper1 .context {
+  width: 270px;
+  margin: 0 40px 0 85px;
+}
+.wrapper1 .context h1 {
+  color: #5c1c66;
+  font-size: 56px;
+}
+.wrapper1 .photos {
+  width: 518px;
+  box-shadow: 0px 0px 20px #6D6D6D;
+}
+.wrapper2 {
+  padding: 45px 0 130px;
+  background-color: transparent;
+  background-image: url(../img/wrapper2-back.jpg);
+  background-repeat: no-repeat;
+  background-size: 716px auto;
+  background-position: 90px 46px;
+}
+.wrapper2 .photos {
+  width: 480px;
+  margin: 0 220px 0 85px;
+  box-shadow: 4px 4px 20px #2B2A2A
+}
+.wrapper2 .context {
+  width: 380px;
+}
+.wrapper2 .context h1 {
+  color: #9d79a2;
+  font-size: 63px;
+}
+.wrapper2 .context p {
+
+}

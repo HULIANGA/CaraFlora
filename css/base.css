@@ -1,0 +1,188 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  outline: none;
+}
+
+body {
+  font: normal 14px/1.5 "Microsoft Yahei", "Lucida Grande", Tahoma, Verdana, STXihei, hei;
+  color: #4d4a4a;
+  background: #fde8e3;
+}
+
+section, footer, nav, em, mark, p, span, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, input, textarea {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  list-style: none;
+  font-style: normal
+}
+
+input, textarea {
+  border: none;
+  outline: none;
+}
+
+select {
+  outline: none;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 2px 5px;
+  border-color: #ccc;
+}
+
+a {
+  cursor: pointer;
+}
+
+button, input, textarea, select {
+  font-family: Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+}
+
+input[type="text"], input[type="password"] {
+  -webkit-appearance: none;
+}
+
+button, .btn {
+  border: 0 none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 36px;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+}
+
+img {
+  border: none;
+  width: 100%
+}
+
+a {
+  color: #464646;
+  outline-style: none;
+  text-decoration: none
+}
+
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis
+}
+
+.pull-l {
+  float: left;
+}
+
+.pull-r {
+  float: right;
+}
+
+
+/* 文字对齐方式 */
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+
+/* 清除浮动*/
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hide {
+  display: none;
+}
+
+.content {
+  background: #fffcfb;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 25px #666666;
+}
+.head {
+  background-image: url(../img/head-back.jpg);
+  background-size: 100% auto;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.bottom {
+  background-image: url(../img/bottom-back.jpg);
+  background-size: 100% auto;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.head-content {
+  padding: 195px 0 1px;
+}
+.bottom-content {
+  padding: 60px 150px 120px;
+  position: relative;
+}
+.head-nav {
+  margin: 65px auto;
+  text-align: center;
+}
+.nav a {
+  color: #96ac89;
+  font-size: 37px;
+}
+.head-nav a {
+  margin: 0 38px;
+}
+.bottom-nav {
+  display: inline-block;
+}
+.bottom-nav a {
+  margin: 0 20px;
+}
+.logo {
+  text-align: center;
+}
+.logo h1 {
+  color: #693471;
+  font-size: 66px;
+}
+.logo h2 {
+  color: #f5b7c2;
+  font-size: 47px;
+}
+.logo.head-logo {
+  width: 450px;
+  margin: 0 auto;
+}
+.logo.head-logo .line {
+  width: 400px;
+}
+.logo.bottom-logo {
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  width: 420px;
+  margin-left: -210px;
+}
+.logo.bottom-logo p {
+  font-size: 10px;
+  color: #7d7c7d;
+}
