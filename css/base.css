@@ -172,6 +172,8 @@ a {
 }
 .bottom-nav {
   display: inline-block;
+  position: relative;
+  z-index: 4;
 }
 .bottom-nav a {
   margin: 0 20px;
@@ -205,6 +207,7 @@ a {
   top: 40px;
   width: 420px;
   margin-left: -210px;
+  z-index: 3;
 }
 .logo.bottom-logo h1 {
   font-size: 34px;
