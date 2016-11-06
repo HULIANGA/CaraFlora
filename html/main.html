@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>CaraFlora-首页</title>
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/23670/46887/581eb56bf629d8130087fa00.css' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="../css/swiper-3.4.0.min.css" media="screen" title="no title">
     <link rel="stylesheet" href="../css/base.css" media="screen" title="no title">
     <link rel="stylesheet" href="../css/main.css" media="screen" title="no title">
   </head>
@@ -30,15 +32,24 @@
       </div>
       <!-- 头部end -->
       <!-- 轮播图 -->
-      <div class="banner">
-        <img src="../img/banner1.jpg" alt="" />
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../img/banner1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
       </div>
       <!-- 轮播图end -->
       <!-- 正文详情 -->
       <div class="wrapper1 clearfix">
         <div class="context pull-l">
           <h1>About</br>Us</h1>
-          <p>CaraFlora布偶猫舍是位于广州市的小型家庭猫舍，注册于CFA协会，所有繁育的种猫均引进自意大利，波兰，加拿大，所有种猫都拥有CFA或FIFE血统证明及五代族谱，每只小猫都能得到最大照顾和爱，如果您想预定我们的小猫，联系我的时候请做个简单的自我介绍，我们需要知道小猫将要去一个怎么样的家庭，是否养过宠物，及家人是否同意接回一只小家庭成员，有无对宠物毛发过敏等，请您理解。</p>
+          <p>
+            CaraFlora布偶猫舍是位于广州市的小型家庭猫舍，注册于CFA协会，所有繁育的种猫均引进自意大利，波兰，加拿大，所有种猫都拥有CFA或FIFE血统证明及五代族谱，每只小猫都能得到最大照顾和爱，如果您想预定我们的小猫，联系我的时候请做个简单的自我介绍，我们需要知道小猫将要去一个怎么样的家庭，是否养过宠物，及家人是否同意接回一只小家庭成员，有无对宠物毛发过敏等，请您理解。
+          </p>
         </div>
         <div class="photos pull-l">
           <img src="../img/cat1.jpg" alt="">
@@ -50,7 +61,7 @@
         </div>
         <div class="context pull-l">
           <h1>About&nbsp;Us</h1>
-          <p>CaraFlora布偶猫舍是位于广州市的小型家庭猫舍，注册于CFA协会，所有繁育的种猫均引进自意大利，波兰，加拿大，所有种猫都拥有CFA或FIFE血统证明及五代族谱，每只小猫都能得到最大照顾和爱，如果您想预定我们的小猫，联系我的时候请做个简单的自我介绍，我们需要知道小猫将要去一个怎么样的家庭，是否养过宠物，及家人是否同意接回一只小家庭成员，有无对宠物毛发过敏等，请您理解。</p>
+          <p>CaraFlora布偶猫舍是位于广州市的小型家庭猫舍，注册于CFA协会，所有繁育的种猫均引进自意大利，波兰，加拿大，所有种猫都拥有CFA或FIFE血统证明及五代族谱，并且已经通过HCM（肥厚型心脏病Ⅱ型）、PKD（多囊性肾病）的基因检测，均无遗传性疾病。定期检测驱虫疫苗，给猫咪喂食天然粮、进口肉类、进口罐头及各种营养品，保证猫咪的健康成长。我们猫舍每只小猫都能得到最大照顾和爱，如果您想预定我们的小猫，联系我的时候请做个简单的自我介绍，我们需要知道小猫将要去一个怎么样的家庭，是否养过宠物，及家人是否同意接回一只小家庭成员，有无对宠物毛发过敏等，请您理解。</p>
         </div>
       </div>
       <!-- 底部 -->
@@ -76,5 +87,16 @@
       </div>
       <!-- 底部end -->
     </div>
+    <script src="../js/swiper-3.4.0.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    var mySwiper = new Swiper('.swiper-container', {
+    	autoplay: 2000,//可选选项，自动滑动
+      speed: 1000,
+      loop: true,
+      pagination: '.swiper-pagination',
+      prevButton:'.swiper-button-prev',
+      nextButton:'.swiper-button-next'
+    })
+    </script>
   </body>
 </html>

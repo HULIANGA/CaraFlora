@@ -1,3 +1,15 @@
+@font-face {
+  font-family: FELIXTI; /*这里是说明调用来的字体名字*/
+  src: url(../font/FELIXTI.TTF); /*这里是字体文件路径*/
+}
+@font-face {
+  font-family: FILXGIRL; /*这里是说明调用来的字体名字*/
+  src: url(../font/FILXGIRL.TTF); /*这里是字体文件路径*/
+}
+@font-face {
+  font-family: THIRSTYFORSOULS; /*这里是说明调用来的字体名字*/
+  src: url(../font/THIRSTYFORSOULS.TTF); /*这里是字体文件路径*/
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -137,7 +149,7 @@ a {
   padding: 195px 0 1px;
 }
 .bottom-content {
-  padding: 60px 150px 120px;
+  padding: 60px 170px 120px;
   position: relative;
 }
 .head-nav {
@@ -147,6 +159,13 @@ a {
 .nav a {
   color: #96ac89;
   font-size: 37px;
+  font-family: FILXGIRL;
+}
+.nav a.active {
+  color: #f5b7c2;
+}
+.bottom-nav a {
+  font-size: 28px;
 }
 .head-nav a {
   margin: 0 38px;
@@ -163,10 +182,14 @@ a {
 .logo h1 {
   color: #693471;
   font-size: 66px;
+  line-height: 66px;
+  font-family: FELIXTI;
 }
 .logo h2 {
   color: #f5b7c2;
   font-size: 47px;
+  line-height: 57px;
+  font-family: FILXGIRL;
 }
 .logo.head-logo {
   width: 450px;
@@ -178,11 +201,24 @@ a {
 .logo.bottom-logo {
   position: absolute;
   left: 50%;
-  top: 30px;
+  top: 40px;
   width: 420px;
   margin-left: -210px;
+}
+.logo.bottom-logo h1 {
+  font-size: 34px;
+  line-height: 34px;
+}
+.logo.bottom-logo h2 {
+  font-size: 24px;
+  line-height: 30px;
 }
 .logo.bottom-logo p {
   font-size: 10px;
   color: #7d7c7d;
+  font-family: FELIXTI;
+  transform: scale(0.8);
+}
+.logo.bottom-logo .line {
+  width: 320px;
 }
