@@ -14,7 +14,7 @@
 }
 .context p {
   color: #4d4a4a;
-  font-size: 21px;
+  font-size: 25px;
   font-family: HaTian-SuiXing6dd1df42b5c76;
 }
 .photos {
@@ -76,6 +76,7 @@
 .wrapper2 .context {
   width: 380px;
   margin-top: -20px;
+  margin-right: 25px;
 }
 .wrapper2 .context h1 {
   color: #9d79a2;

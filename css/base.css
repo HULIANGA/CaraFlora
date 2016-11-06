@@ -184,6 +184,7 @@ a {
   font-size: 66px;
   line-height: 66px;
   font-family: FELIXTI;
+  font-weight: bold;
 }
 .logo h2 {
   color: #f5b7c2;
@@ -217,7 +218,7 @@ a {
   font-size: 10px;
   color: #7d7c7d;
   font-family: FELIXTI;
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 .logo.bottom-logo .line {
   width: 320px;
