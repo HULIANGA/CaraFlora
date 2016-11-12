@@ -54,12 +54,15 @@
   color: #6f5353;
   font-size: 14px;
   line-height: 36px;
-  font-family: sans-serif;
-  border-bottom: 1px dashed #6f5353;
+  font-family: BKANT;
+  border-bottom: 1px dotted #6f5353;
 }
 .kitten-img {
   width: 770px;
   display: inline-block;
   border: 12px solid #ebe6e7;
   float: right;
+}
+.kitten-img img {
+  float: left;
 }
