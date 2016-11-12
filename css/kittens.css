@@ -1,0 +1,65 @@
+.kitten-list {
+  padding: 0 108px;
+}
+.kitten-item {
+  margin-bottom: 70px;
+}
+.kitten-info {
+  width: 170px;
+  display: inline-block;
+  float: left;
+}
+.kitten-date {
+  text-align: center;
+  margin: 0 auto 30px;
+  width: 100px;
+  height: 113px;
+  background-image: url(../img/date-bg.png);
+  background-size: 100px auto;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.kitten-date:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.3);
+  top: 50%;
+  margin-top: -2px;
+}
+.kitten-date h1 {
+  line-height: 110px;
+  height: 83px;
+  font-size: 70px;
+  float: left;
+  text-align: center;
+  width: 100%;
+  color: #6f5353;
+  font-family: GREATVIBESREGULAR;
+}
+.kitten-date p {
+  line-height: 18px;
+  font-size: 18px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-family: BKANT;
+}
+.kitten-detail {
+
+}
+.kitten-detail .detail-item {
+  color: #6f5353;
+  font-size: 14px;
+  line-height: 36px;
+  font-family: sans-serif;
+  border-bottom: 1px dashed #6f5353;
+}
+.kitten-img {
+  width: 770px;
+  display: inline-block;
+  border: 12px solid #ebe6e7;
+  float: right;
+}
